@@ -1,4 +1,4 @@
-# Secrets-Authentication-Security
+# Secrets App-Authentication-Security
 A simple app where people can login and share their secrets and read others secret too.The main aim of this project is understand how authentication works in node Js with 6 level of security. I have learned about this is my web development course.
 
 ## Level-01 Simple Register and Login
