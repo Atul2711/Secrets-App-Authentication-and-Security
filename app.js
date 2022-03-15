@@ -36,7 +36,7 @@ app.set('view engine','ejs');
 
 //above connect and below app.use
 app.use(session({
-    secret:"OurLittleSecret.",
+    
     resave:false,
     saveUninitialized:false
 }));
@@ -58,7 +58,7 @@ userSchema.plugin(passportLocalMongoose); //LEVEL-05
 userSchema.plugin(findOrCreate);
 /*
 //Level-02
-// const secret="ThisIsOurLittleSecret.";
+
 const secret=process.env.SECRET;
 userSchema.plugin(encrypt, { secret: secret, encryptedFields: ['password']});
 //It will encrypt when u call save and will dcrypt when u call find
